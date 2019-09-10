@@ -1,24 +1,39 @@
-# react-webpack-starter-kit
+# Application State (Demo Application)
 
-A simple boilerplate with the basic setup to work with react.
+A heatmap showing a visual representation of data (How individuals subscribe and pay for services by days of a year).
+The “redder” the heat map square indicates the higher the failed transaction by accumulated value for that day and the “greener” it is the higher the successful transaction by accumulated value for that day.
 
-It includes webpack for bundling and babel for transpiling your es6 javascript to es5.
-It also has support for sass, file imports and autoprefixing of your compiled css file.
+## Installation and run
 
-### Usage:
-1. clone this repository or download the zip file.
-2. change directory into the clone folder.
-3. run the following code in your terminal.
-	```javascript
-    yarn
-    ```
-4. Finally run
-	```javascript
-    yarn run dev
-	```
-5. yay! start writing your react code
+```
+npm install
+npm start
+```
+## About
+You can fork this project and utilize the fault free configuration.
+```
+React (16.8.0).
+State Management: No application state storage needed.
+Backend storage: Reads an imported JSON file.
+CSS/SCSS: Utilizes grid.
+Webpack.
+Babel.
+```
+### Notes: 
+```
+No application state necessary.
+```
+## Contributing
+```
+Pull requests are welcome.
+Please make sure to update tests as appropriate.
+```
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
+
+## Play with the application
+[Github type demo](http://heatmapgrid.surge.sh/)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
-If you notice any issue or want to contribute to this repository, just fork and create a PR
-
-[let's tweet](https://twitter.com/jude_ojini)
