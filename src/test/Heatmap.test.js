@@ -28,38 +28,6 @@ let container,dummy,wrapper,tree,result,daysInYear;
 
         });
     test('Check Dom/Virtual Dom structure', () => {
-        /*
-      tree.children [ { type: 'ul',
-          props: { className: 'months' },
-          children:
-           [ [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object] ] },
-        { type: 'ul',
-          props: { className: 'days' },
-          children:
-           [ [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object],
-             [Object] ] },
-        { type: 'ul',
-          props: { className: 'squares' },
-          children: [ [Object] ] } ]
-
-*/
-//console.log("tree.children[0].children:",tree.children[0].children[0])[ { type: 'li', props: {}, children: [ 'Jan' ] }
         expect(tree.type).toBe('div');
         expect(tree.props.className).toBe('graph');
         expect(tree.children[0].children[0].type).toBe('li');
