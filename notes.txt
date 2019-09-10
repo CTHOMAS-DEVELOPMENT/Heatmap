@@ -1,5 +1,0 @@
-surge --domain connectedtechnology.surge.sh
-
-surge --domain application-state.surge.sh
-
-https://damp-lake-92649.herokuapp.com/
