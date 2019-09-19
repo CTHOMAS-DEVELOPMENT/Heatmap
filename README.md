@@ -25,7 +25,7 @@ No application state necessary.
 This project was migrated to an equivalent TypeScript version.
 ```
 [TypeScript version](https://github.com/CTHOMAS-DEVELOPMENT/YearHeatMap)
-```
+
 ## Contributing
 ```
 Pull requests are welcome.
